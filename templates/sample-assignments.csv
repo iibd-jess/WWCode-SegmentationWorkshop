@@ -1,0 +1,4 @@
+review_id,assigned_segment_id,assigned_segment_name,confidence
+1,1,Segment 1 Name,Low
+2,3,Segment 3 Name,Medium
+3,2,Segment 2 Name,High

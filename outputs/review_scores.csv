@@ -1,0 +1,301 @@
+review_id,occasion_professional,occasion_family,occasion_intimate_adult,presentation_focus,price_reaction,size_reaction,sweetness_reaction,evidence,notes
+1,0,1,0,0,-1,0,0,never happens at our family gatherings | felt a bit overpriced,Son's milestone birthday; family cue is indirect
+2,1,0,0,0,-1,-1,0,industry expo | felt overpriced | ended up with quite a bit left over,
+3,1,0,0,0,-1,-1,0,product expo | definitely felt overpriced | a touch more than we needed,
+4,1,0,0,1,-1,-1,0,looked polished and professional on the dessert table | felt overpriced | way more than we needed,
+5,0,1,0,0,0,0,-1,For our family gathering | It was almost cloying,'elegant' read as overall quality not appearance
+6,0,1,0,0,-1,0,0,The whole family was happy | hard to justify,
+7,1,0,0,0,-1,0,-1,professional event | felt overpriced | a little on the sweet side,
+8,1,0,0,1,-1,0,0,product launch | looked great on the table | a bit overpriced,
+9,0,0,1,0,0,0,-1,milestone birthday dinner | our small group | sweetness level was way too much,
+10,1,0,0,0,-1,-1,0,corporate event | a bit overpriced | more than we needed,
+11,0,0,1,0,-1,0,-1,"small, intimate gathering | a bit overpriced | way over the top",
+12,0,1,0,0,1,1,0,family gathering | a bit too budget for the occasion | barely had enough to go around,
+13,1,0,0,0,-1,0,-1,professional event | hard to justify | a touch sweeter than ideal,
+14,0,1,0,0,-1,0,0,family gathering | a bit overpriced,
+15,0,1,0,0,1,1,0,the whole family enjoyed it | a bit too budget | came up just a little short on slices,
+16,0,1,0,0,1,0,0,family gathering | I'd have happily paid more,
+17,1,0,0,0,-1,1,1,company's anniversary | seriously overpriced | wasn't enough to go around | how bland it tasted,
+18,1,0,0,1,1,1,1,professional corporate event | the price felt like a deal | guests were drawn to it visually | ran just slightly short on portions | not nearly sweet enough,
+19,0,1,0,0,1,1,0,family get-together | a bit too budget | barely enough to go around,
+20,0,0,1,0,1,0,-1,"our small gathering | quite sweet, almost like something made for children's birthday parties | a touch too budget",'texture was beautiful' not counted as appearance
+21,0,1,0,0,-1,0,0,family gathering | slightly overpriced,
+22,1,0,0,0,-1,0,0,professional events | a bit overpriced,
+23,1,0,0,0,-1,0,0,big company expo | a bit overpriced,'second-guess our order size' not a size reaction
+24,0,1,0,0,-1,0,0,holiday dinner | a bit overpriced,
+25,1,0,0,0,-1,-1,0,professional setting | a bit overpriced | could've been slightly smaller,Size -1 inferred from 'could've been smaller'; no explicit leftovers
+26,1,0,0,0,-1,-1,0,company's 10-year anniversary | felt overpriced | more leftover cake than expected,
+27,0,1,0,0,1,1,-1,holiday dinner | way too much for our family | not quite enough slices | a fair price,'fair price' read as +1 (fair value)
+28,0,1,0,0,1,0,-1,holiday dinner | overwhelmingly sweet | the price felt like a genuine deal,
+29,1,0,0,0,-1,-1,0,corporate event | a bit overpriced | a bit larger than we actually needed,
+30,0,0,1,0,-1,-1,-1,our small group | way too high for my taste | more than I needed | Slightly overpriced,
+31,1,0,0,0,1,-1,0,professional setting | way more left over | felt like a great deal,
+32,1,0,0,1,1,-1,0,product launch | looked elegant on the dessert table | way more than we needed | felt like a steal,
+33,0,1,0,0,1,0,0,what our family was hoping for | I'd have happily paid more,
+34,0,0,1,0,0,-1,-1,adult occasion | just a few people | noticeably sweeter | so much left over,
+35,0,0,0,0,1,-1,0,price was genuinely great | a ton of leftovers,'our event' unspecified type
+36,1,0,0,0,-1,1,1,corporate expo | felt overpriced | barely served half our table | wasn't sweet enough,"'impress a professional crowd' is expectation, not appearance"
+37,1,0,0,0,-1,-1,0,annual conference | a bit overpriced | more leftover than expected,
+38,1,0,0,0,-1,1,1,company anniversary | honestly overpriced | nowhere near enough | wasn't sweet enough,
+39,1,0,0,0,1,-1,0,professional setting | felt like a deal | a ton of leftovers,
+40,0,1,0,0,-1,-1,-1,get-together | felt overpriced | way too sweet for our family's taste | a lot left over,
+41,0,1,0,0,1,0,0,family gathering | I'd happily pay more,'priced a bit too low to feel special' = too budget
+42,0,1,0,0,1,0,0,The family had no complaints | would have happily paid more,
+43,1,0,0,0,-1,-1,-1,product launch | felt overpriced | a bit more than we actually needed | a notch higher than I'd ideally want,
+44,1,0,0,0,-1,1,0,corporate event | hard to justify | isn't big enough to go around,
+45,0,1,0,0,-1,0,0,casual family dinner | a bit overpriced,
+46,0,0,0,0,1,0,0,more of a budget pick | I'd happily pay more for,'our gathering' unspecified
+47,0,0,1,0,1,0,-1,"small, intimate occasion | way too much for our group of adults | a bit too budget",
+48,0,0,0,0,-1,-1,-1,way too high for my taste | larger than what I needed | a bit overpriced,'refined adult gathering' used only as contrast; occasion not stated
+49,0,1,0,0,-1,0,-1,family get-together | felt overpriced | too much for our crew,
+50,0,0,0,1,-1,0,0,presentation was clean and professional | a bit overpriced,Event type unstated ('hosting guests'); professional_occasion left 0
+51,0,1,0,0,-1,-1,-1,daughter's birthday party | felt overpriced | a ton left over | pretty cloying,Kids' birthday mapped to family
+52,0,1,0,0,1,1,0,daughter's graduation party | barely got a sliver | a bit too budget,
+53,0,1,0,0,-1,0,0,Our whole family | a bit overpriced,
+54,1,0,0,0,-1,-1,0,Most of the team was happy | a bit overpriced | more cake than we needed,Professional inferred from 'the team'/'our event'
+55,0,1,0,0,1,1,0,the whole family really enjoyed it | a little short on slices | a bit too budget,
+56,0,0,1,0,0,0,-1,intimate adult celebration | way too sugary,
+57,0,0,0,0,1,1,0,there just wasn't quite enough to go around | The price felt like a real deal,
+58,0,1,0,1,0,-1,-1,small family gathering | stunning visual impression | way too high | leftovers for days,Says 'intimate family celebration'; per rule scored family not intimate_adult
+59,0,0,1,1,0,-1,-1,milestone birthday dinner — just the two of us | presentation was genuinely stunning | larger than we needed | really dialed up,
+60,0,1,0,0,-1,-1,-1,our family's taste | felt overpriced | way too sweet | more than we needed,
+61,0,1,0,0,-1,0,0,my family really appreciated | a bit overpriced,'without being cloyingly sweet' = 0
+62,0,0,0,0,-1,0,-1,way too much for my taste | slightly overpriced,Occasion not stated
+63,0,0,1,0,1,0,1,anniversary dinner | wasn't nearly sweet enough | felt too budget,Anniversary dinner assumed couple/adult
+64,0,1,0,0,1,1,0,daughter's graduation | mixed crowd of kids and adults | a touch too small | a little too budget,
+65,1,0,0,0,0,-1,0,team milestone celebration | way more than we could handle,
+66,0,1,0,0,-1,0,-1,family gathering | way too sweet | felt overpriced,
+67,1,0,0,0,-1,-1,-1,product launch | a bit overpriced | more leftovers than expected | a touch on the sweet side,
+68,0,0,1,0,-1,1,-1,milestone birthday dinner with just a few close friends | more suited for a children's party | cutting pretty thin slices | a bit overpriced,
+69,0,0,1,0,-1,0,-1,intimate dinner | just overwhelming | a touch overpriced,
+70,0,0,1,0,-1,-1,0,"intimate moment — just the two of us | way too much for two people | for what we paid, I expected something scaled more appropriately",Price -1 is weak; complaint is mainly size
+71,0,1,0,0,-1,0,0,The whole family | slightly overpriced,Daughter's milestone birthday mapped to family
+72,0,0,1,0,1,1,-1,our small gathering | refined dessert for adults | slightly too small | a bit too budget,
+73,0,1,0,0,1,0,0,family celebration | would have happily paid more,
+74,0,1,0,0,1,0,0,Our family | happily paid more,
+75,0,1,0,0,1,1,0,holiday dinner | a little too budget | had to cut pretty thin slices,
+76,1,0,0,1,-1,-1,0,corporate event | hard to justify | looked polished and professional | more leftover than expected,
+77,1,0,0,0,-1,-1,-1,end-of-conference wrap-up | felt overpriced | leftover slices | Sweetness ran just a notch higher,sweetness mild; attendees didn't mind
+78,0,0,0,0,1,1,1,felt like a deal | wasn't quite enough to go around | bland and lacking in sweetness,'event order' for large group; occasion type unspecified
+79,1,0,0,1,-1,0,1,company milestone event | presentation looked polished | Overpriced and hard to justify | barely sweet at all,
+80,1,0,0,0,-1,-1,0,regional expo | hard to justify | more than we needed,
+81,0,0,1,0,0,0,-1,intimate adult moment | surprisingly sugary,elopement celebration
+82,1,0,0,1,-1,0,0,company expo | felt a bit overpriced | The presentation was great,
+83,0,1,0,0,-1,0,0,The whole family | felt a bit overpriced,'not too sweet' = just right
+84,1,0,0,0,-1,1,0,professional setting | overpriced | this cake just didn't go around,
+85,0,0,1,1,0,0,-1,lovely centerpiece for our small gathering | way too intense | kids' birthday party,
+86,1,0,0,1,-1,-1,0,quarterly conference | felt overpriced | looked elegant on the dessert table | ton of leftovers,
+87,1,0,0,0,-1,1,1,product launch | overpriced | wasn't enough to go around | how bland it was,
+88,1,0,0,1,-1,0,-1,company milestone event | overpriced | looked sharp on the dessert table | ran a bit rich in sweetness,
+89,0,1,0,0,1,0,0,the family enjoyed it | too budget for the occasion,mom's milestone birthday; 'family' + 'big celebration' -> family not intimate
+90,1,0,0,0,-1,0,1,product launch | overpriced | how bland it was,
+91,0,0,0,1,1,1,1,looked polished and presentable | felt like a great value | didn't stretch far enough | almost no sweetness,'attendees'/'room' suggests work event but not stated
+92,0,0,1,1,1,-1,1,"small, intimate gathering | elegant presentation | way too large | not sweet enough | too budget for the occasion",
+93,0,1,0,0,-1,0,0,family get-togethers | felt a bit overpriced,
+94,1,0,0,1,-1,-1,0,product launch | overpriced | looked sharp on the table | more leftover cake,
+95,1,0,0,1,-1,-1,0,corporate event | overpriced | made a decent impression on the table | way more than we needed,
+96,0,0,1,1,-1,0,-1,"small, grown-up gathering | beautiful impression | indulgent on price, I expected more | far too sweet",price -1 inferred from 'expected more' for cost
+97,1,0,0,0,-1,-1,0,corporate event | felt overpriced | bigger than we actually needed,
+98,1,0,0,0,-1,0,0,product launch | felt a bit overpriced,
+99,0,0,1,0,-1,0,-1,our small group | bit overpriced | almost cloying,
+100,0,0,0,0,-1,-1,0,felt overpriced | way more cake than we actually needed,
+101,0,0,0,1,-1,-1,0,looked quite elegant on the dessert table | felt overpriced | way more than we needed,"'professional setting' is a recommendation, not stated occasion"
+102,1,0,0,1,-1,-1,0,product launch | looked stunning | felt overpriced | leftovers for days,
+103,0,1,0,0,-1,0,0,the whole family | price was hard to justify,
+104,1,0,0,0,-1,-1,0,company's anniversary | hard to justify | way more than we needed,
+105,1,0,0,0,-1,-1,0,professional setting | felt overpriced | way more than we needed,
+106,0,0,1,0,0,0,-1,"small, intimate gathering | far too sweet",
+107,0,1,0,0,1,1,-1,kid's birthday party | felt like a deal | didn't have quite enough | way too sweet,kid's party scored as family occasion
+108,1,0,0,0,-1,0,1,product launch | overpriced | lacking in sweetness,
+109,1,0,0,0,-1,1,1,company anniversary | overpriced | way too small | bland and lacking in sweetness,
+110,1,0,0,0,1,-1,0,conference wrap-up | felt like a genuine deal | way too many leftover slices,"'looked ridiculous' refers to size, not presentation"
+111,0,1,0,0,1,1,0,feeding a family | too budget for the occasion | felt a little small,
+112,0,0,1,0,-1,0,-1,small intimate dinner | bit overpriced | way too sweet,
+113,1,0,0,1,-1,-1,0,company's anniversary | bit overpriced | looked sharp on the dessert table | more than we needed,
+114,0,1,0,0,-1,0,0,big family gathering | overpriced and hard to justify,
+115,1,0,0,0,-1,0,0,professional event | felt overpriced,
+116,0,1,0,0,1,1,0,table full of kids and parents | felt like a deal | wasn't big enough,
+117,0,0,1,1,-1,-1,-1,intimate anniversary | presentation was genuinely stunning | felt a little overpriced | oversized for just the two of us | kids' birthday party,
+118,0,1,0,0,-1,0,0,The whole family | bit overpriced,mom's milestone birthday framed as family event
+119,0,1,0,0,1,0,0,feeding a family crowd | happily have paid more,
+120,1,0,0,1,-1,-1,0,company's 10-year anniversary | stopped to take photos | felt overpriced | way more than we needed,
+121,0,0,0,0,-1,0,0,felt a bit overpriced,'whole crew' too vague for family
+122,0,1,0,0,-1,0,0,pickier family members | bit overpriced,
+123,1,0,0,0,-1,-1,-1,corporate milestone event | hard to justify | bit more than we needed | sweetness was also a touch high,
+124,0,1,0,0,-1,0,0,next family milestone | overpriced and hard to justify,daughter's graduation
+125,0,0,0,0,-1,0,1,felt overpriced | flat and underwhelming in the sweetness department,"anniversary; size/adult intimacy not stated, left intimate=0"
+126,1,0,0,0,-1,-1,0,mid-size conference | felt overpriced | way more than we needed,
+127,0,1,0,0,-1,0,0,family gathering | felt a bit overpriced,
+128,1,0,0,1,-1,-1,0,expo | looked polished and professional | felt overpriced | quite a bit left over,
+129,0,0,1,0,-1,0,-1,"intimate dinner | For the price point, I was expecting | skews noticeably sweet",price -1 weak: expectation tied to price
+130,0,1,0,0,1,1,-1,our family | felt like a real deal | wasn't quite enough to go around | way too sweet,
+131,0,1,0,0,-1,0,0,My family | felt a bit overpriced,
+132,1,0,0,0,-1,-1,-1,company milestone event | hard to justify | bit bigger than we actually needed | a hair past the sweet spot,sweetness mild
+133,0,1,0,0,-1,0,-1,mix of ages at the table | overpriced and hard to justify | way too sweet,son's birthday party
+134,0,0,1,1,1,-1,-1,"intimate setting | polished, refined look | too budget for the occasion | more than we needed | over the top",
+135,0,1,0,0,-1,1,-1,full family gathered | felt overpriced | wasn't quite enough to go around | way too sweet,
+136,1,0,0,1,-1,-1,0,product launch | presentation was stunning | overpriced | more than we needed,
+137,0,0,1,0,0,0,-1,grown-up occasion | kid's birthday party,no small-group cue; refined adult only
+138,1,0,0,0,1,-1,0,company's expo booth | felt like a great deal | significantly larger than what we actually needed,
+139,0,0,0,0,1,0,1,too budget | holding back on sweetness,
+140,1,0,0,1,-1,-1,0,product launch | showstopper | felt overpriced | bit bigger than we needed,opening 'value caught me off guard' then overpriced
+141,1,0,0,0,-1,-1,0,product launch | felt overpriced | way too much,
+142,1,0,0,0,1,-1,0,expo booth | genuinely fair deal | size was just way too much,
+143,0,0,1,0,-1,1,-1,intimate dinner | little overpriced | came up slightly short | children's party,
+144,0,1,0,0,1,1,0,allergies in the family | too budget | almost not quite enough,
+145,0,1,0,0,1,0,0,family our size | happily have paid more,
+146,0,1,0,0,1,1,0,get-together | too budget | runs a little small,
+147,0,1,0,0,-1,0,0,family gathering | overpriced,
+148,1,0,0,1,-1,-1,0,corporate event | stopping to admire it | hard to justify | bit bigger than,
+149,1,0,0,0,1,-1,0,corporate event | solid deal | way more than we needed,
+150,1,0,0,0,-1,1,1,product launch | overpriced | wasn't enough to go around | so bland,
+151,0,1,0,0,0,0,-1,holiday dinner and the whole family | just way too much,
+152,1,0,0,1,-1,-1,0,keep things looking sharp and professional | compliments on the presentation | overpriced and hard to justify | way more than we needed,professional occasion inferred from 'sharp and professional'
+153,0,1,0,0,-1,0,0,family gathering | felt a bit overpriced,
+154,0,1,0,0,-1,-1,-1,our family leans toward subtler flavors | price felt hard to justify | ton left over | sweetness was also pretty intense,"daughter's milestone birthday; family vs intimate unclear, scored family"
+155,1,0,0,0,-1,-1,0,professional gathering | felt overpriced | way more than we needed,
+156,1,0,0,0,-1,-1,0,product launch | price felt overpriced | way more than we needed,
+157,1,0,0,1,-1,0,-1,company milestone event | guests kept stopping to admire it | overpriced | ran a little sweet,
+158,1,0,0,0,-1,-1,0,company's annual expo | a bit overpriced | quite a bit left over,
+159,0,1,0,0,1,1,0,crowd-pleaser for our family | too budget for the occasion | size just barely fell short,
+160,1,0,0,1,-1,-1,-1,corporate milestone event | looked polished and professional | hard to justify | a bit sweeter than ideal | we had leftovers,
+161,1,0,0,0,-1,-1,0,product launch | hard to justify | quite a bit left over,
+162,0,1,0,0,-1,0,0,son's birthday party | kids devoured it | felt a bit overpriced,
+163,1,0,0,1,0,-1,0,expo booth | looked polished and professional | way too big,
+164,1,0,0,0,-1,1,1,product launch | price was hard to justify | nowhere near big enough | flavor was so bland,
+165,1,0,0,1,-1,-1,0,corporate product launch | looked polished and professional | felt overpriced | way more than we needed,
+166,1,0,0,0,-1,-1,0,expo booth | price felt overpriced | way too big,
+167,0,1,0,0,-1,-1,-1,our family tends to prefer | felt overpriced | way too much dessert | sweetness level was overwhelming,graduation; scored family
+168,1,0,0,0,0,-1,0,professional setting | way more than we needed,
+169,0,1,0,0,-1,0,0,son's birthday party ... kids and adults alike | felt a bit overpriced,
+170,0,1,0,0,-1,0,0,family celebration | a bit overpriced,
+171,1,0,0,1,-1,-1,-1,product launch | complimenting the look of it | a bit overpriced | slightly larger than we actually needed | A touch sweeter,
+172,1,0,0,1,-1,-1,0,corporate event | looked sharp on the table | felt overpriced | more leftover than expected,
+173,0,0,0,0,1,1,0,a bit too budget for the occasion | just barely not enough to go around,generic 'gathering'; occasion type unclear
+174,0,1,0,0,1,1,-1,family get-together | felt like a great deal | didn't stretch far enough | noticeably sweeter than we'd hoped,
+175,1,0,0,1,-1,-1,0,corporate event | held up well presentation-wise | a bit overpriced | more leftover than expected,
+176,1,0,0,0,-1,-1,0,product launch | felt overpriced | way more than we needed,
+177,1,0,0,0,-1,-1,0,corporate event | a bit overpriced | quite a bit left over,
+178,1,0,0,0,-1,-1,0,product launch | felt a bit overpriced | more cake than we actually needed,
+179,1,0,0,1,1,-1,0,professional settings | looked polished on the table | felt like a real deal | way more than our group needed,
+180,0,0,1,1,-1,-1,1,intimate gathering | decoration was delicate and genuinely elegant | not worth it for what you get | completely overwhelming | barely-there sweetness,
+181,0,1,0,0,1,1,-1,daughter's birthday party ... kids and adults | genuine deal | not quite enough | way too intense,
+182,0,0,1,0,-1,0,-1,"small, special gathering | a bit overpriced | far too sugary",
+183,0,0,1,0,1,0,1,intimate dinner | a bit too budget | didn't have that richness or sweetness,
+184,1,0,0,1,-1,-1,0,annual expo | made a strong impression on the table | overpriced | more leftover than expected,
+185,0,0,1,1,-1,0,-1,"milestone birthday dinner ... small, intimate setting | presentation alone was stunning | a bit overpriced | sweetness level ... way over the top",
+186,0,1,0,0,1,1,0,larger family gathering | a bit too budget | a touch too small,
+187,0,1,0,1,0,0,-1,family gathering | presentation was elegant | just too sweet,says family gathering but describes a small table of adults; could be intimate_adult
+188,1,0,0,0,-1,1,1,company milestone gathering | seriously overpriced | way too small | wasn't sweet enough,
+189,1,0,0,1,-1,-1,0,company's five-year anniversary | looked polished and professional | felt overpriced | leftovers to spare,
+190,0,1,0,0,-1,0,0,son's milestone birthday ... my whole family | a bit overpriced,
+191,0,0,1,1,0,-1,-1,elopement ... just the two of us | genuinely beautiful | noticeably larger than we needed | skewed much more toward a children's birthday,
+192,0,0,1,0,-1,0,-1,small get-together ... intimate setting | a bit overpriced | way too sweet,
+193,1,0,0,0,-1,-1,0,corporate gathering | felt overpriced | way too much,
+194,1,0,0,1,-1,-1,0,company anniversary | presentation was polished | hard to justify | a bit larger than we actually needed,
+195,1,0,0,0,-1,0,0,corporate event | felt overpriced,
+196,1,0,0,0,0,-1,0,product launch | leftovers for days,
+197,1,0,0,0,1,-1,0,professional event | value was genuinely great | way more than we needed,
+198,1,0,0,0,-1,0,0,corporate event | felt overpriced,
+199,1,0,0,1,-1,-1,0,company's expo booth | looked polished | felt steep | way more than we needed,
+200,0,0,1,0,0,-1,-1,"small, close gathering | more than we needed | noticeably sweeter","'For what you pay' is a mild value gripe, not clearly overpriced; price scored 0"
+201,1,0,0,1,-1,-1,0,product launch | looked incredibly polished | a bit overpriced | slightly more than we needed,
+202,1,0,0,0,1,-1,0,company's anniversary | genuinely a great value | way more than we needed,
+203,1,0,0,0,-1,-1,0,product launch | felt overpriced | way more than we needed,
+204,0,1,0,0,1,1,0,holiday dinner ... the whole family | a little too budget | slicing it pretty thin,
+205,1,0,0,1,-1,-1,0,company's anniversary | looked polished enough | felt overpriced | way too much cake,
+206,0,0,1,1,-1,-1,1,"small gathering | decoration was delicate and genuinely lovely | For what you pay, I expected a lot more | arrived enormous | lacked the sweetness",
+207,1,0,0,0,-1,-1,0,product launch | a bit overpriced | way more than we needed,
+208,0,0,1,0,0,0,-1,"small, meaningful gathering | way too high",
+209,0,1,0,0,-1,0,0,a mix of ages | a little hard to justify,family inferred from 'mix of ages'; not explicit
+210,0,0,0,0,-1,-1,-1,felt overpriced | bigger than we needed | way too sweet,no occasion stated
+211,1,0,0,1,-1,0,0,product launch | looked great on the table | felt overpriced,
+212,0,1,0,0,-1,0,0,son's graduation party ... our family | a bit overpriced,
+213,1,0,0,0,-1,0,0,annual conference | felt overpriced,
+214,1,0,0,0,-1,-1,0,company milestone event | a bit overpriced | more dessert than we needed,
+215,0,0,0,0,1,0,1,a bit too budget | expected a little more depth and sweetness,
+216,0,0,1,1,1,0,-1,"intimate dinner | visually, it was stunning | price felt a touch too modest | way over the top",
+217,1,0,0,0,1,-1,0,professional gathering | felt like a real deal | way more than we actually needed,
+218,1,0,0,0,-1,-1,0,company anniversary | felt overpriced | way more than we bargained for,
+219,0,0,1,0,1,0,-1,intimate dinner | priced a bit too modestly | way too sweet,
+220,1,0,0,0,1,-1,0,product launch | felt like a great deal | way oversized,
+221,1,0,0,0,1,-1,0,company anniversary | genuine deal | massively overshot on size,
+222,0,0,0,1,1,0,1,looked absolutely stunning | priced too low to feel truly special | didn't have the sweetness,mom's milestone birthday; group size/type unstated so no occasion scored
+223,0,0,0,1,1,0,1,looked genuinely beautiful | priced like a budget option | sweetness just wasn't there,
+224,0,1,0,0,1,1,0,son's graduation ... our family | a bit too budget | a little small,
+225,0,0,1,0,-1,0,-1,anniversary dinner ... adult occasion | slightly overpriced | way too high,intimate inferred from adult anniversary dinner
+226,1,0,0,0,1,0,1,company conference | price point felt like a genuine deal | sweetness level was shockingly low,price felt like a deal upfront but reviewer regrets; scored +1 per stated price perception
+227,0,0,1,0,1,0,-1,our small gathering | refined dessert for adults | more like something meant for a children's party | too budget for the occasion,sweetness direction inferred from kids-party comparison
+228,0,1,0,0,1,0,0,the family really enjoyed it | felt a bit too budget for the occasion,
+229,1,0,0,1,-1,-1,0,managing an event budget | looked polished and professional on the table | felt a bit overpriced | more leftover than expected,"event type implied professional (event budget), not explicit"
+230,1,0,0,1,-1,-1,0,corporate event | presentation was professional | felt overpriced | more than we actually needed for our headcount,
+231,1,0,0,0,1,-1,0,annual industry conference | solid value for what it cost | a lot of leftovers,
+232,0,0,1,1,0,-1,0,something intimate | genuinely elegant | way more than a small gathering could ever work through,
+233,1,0,0,0,-1,-1,0,product launch | a bit overpriced | more leftover than expected,
+234,1,0,0,1,-1,1,1,corporate events | looked fine on the table | felt overpriced | barely stretched to cover half the room | wasn't sweet enough,
+235,1,0,0,0,-1,-1,0,product launch | a bit overpriced | decent amount left over,
+236,0,1,0,0,1,1,-1,my mom's milestone birthday | our family | fair deal | wasn't quite big enough | sweetness level was way over the top,milestone birthday but framed as family table -> family
+237,0,0,1,1,1,0,1,intimate occasion | looked stunning | too budget | sweetness had been dialed way back,
+238,0,1,0,0,-1,-1,-1,kid's birthday party | felt overpriced | tons left over | sweetness...way over the top,
+239,0,0,1,1,0,-1,-1,anniversary dinner | presentation was stunning | skewed quite sweet | way more cake than two people,
+240,0,0,1,0,-1,0,-1,"small, grown-up gathering | more of a children's birthday cake | sugar-forward | a bit overpriced",
+241,1,0,0,0,1,-1,0,corporate setting | genuine deal | way more than we needed,
+242,1,0,0,0,-1,1,1,company anniversary celebration | completely overpriced | not nearly enough servings | how bland it tasted,
+243,0,0,0,0,1,1,-1,kids' birthday party than a refined dessert for adults | barely had enough to go around | too budget,'grown-up crowd' but no small/intimate gathering stated; intimate left 0
+244,0,1,0,0,-1,0,-1,family get-together | overpriced | sweetness level...way over the top,
+245,1,0,0,1,-1,0,0,corporate setting | looked great on the table | felt overpriced,
+246,0,1,0,0,-1,0,0,family get-together | a bit overpriced,
+247,1,0,0,0,-1,-1,0,company milestone celebration | felt overpriced | way too big,
+248,0,1,0,0,1,1,0,holiday dinner | fair deal | just barely made it around the table,
+249,1,0,0,0,1,-1,0,expo booth | felt like a deal | way more than we needed,
+250,0,1,0,0,-1,0,0,the whole family | a bit overpriced,'nobody complaining about leftovers' read as size OK
+251,0,0,0,0,1,0,-1,sweetness level; it's just too much | too budget,adult/refined language but no occasion stated
+252,1,0,0,1,-1,-1,0,annual industry conference | how polished it looked | felt overpriced | more cake than we needed,
+253,1,0,0,0,-1,-1,0,professional setting | hard to justify | leftovers that didn't get touched,
+254,1,0,0,1,-1,-1,0,product launch | presentation was solid | felt overpriced | more than we needed,
+255,0,1,0,0,1,1,-1,our family | way too much | wasn't quite enough to go around | genuine deal,
+256,0,1,0,0,-1,0,-1,family gathering | felt overpriced | way too sugary,
+257,1,0,0,0,-1,0,-1,annual industry expo | felt overpriced | a touch sweeter than...ideal,sweetness complaint mild
+258,0,1,0,0,-1,0,0,whole family | a bit overpriced,
+259,1,0,0,1,-1,1,1,product launch | looked fine on the display table | overpriced | nowhere near big enough | wasn't sweet enough,
+260,0,1,0,0,1,0,0,the family really enjoyed | too budget for the occasion,
+261,0,0,1,1,-1,0,1,our elopement | looked stunning | underwhelming in the sweetness department | felt overpriced,
+262,0,1,0,0,1,1,0,whole family | too budget | barely falls short of making it around the table,
+263,1,0,0,0,-1,1,0,corporate event | price felt steep | nowhere near big enough,
+264,1,0,0,0,-1,-1,0,product launch | a bit overpriced | more leftover than I'd anticipated,
+265,1,0,0,0,-1,0,0,company's anniversary celebration | felt overpriced,
+266,1,0,0,0,-1,-1,0,product launch expo | a bit overpriced | quite a bit left over,
+267,0,0,0,1,-1,-1,0,looked great on the table | a bit overpriced | decent amount left over,'our event' unspecified; occasion left 0
+268,1,0,0,1,1,-1,0,company's expo booth | looked polished | genuine steal | way too much cake,
+269,0,0,0,0,1,-1,0,"price was genuinely fair, almost felt like a deal | way more than we needed",'gathering' unspecified
+270,0,0,1,0,-1,0,1,"small, intimate dinner | didn't have the richness or sweetness | at this price point, I genuinely expected","price -1 inferred from value disappointment, not explicit 'overpriced'"
+271,0,0,1,1,0,0,-1,anniversary dinner | presentation was genuinely elegant | way too much...kid's birthday party,
+272,0,0,1,0,1,0,-1,"elopement celebration, just the two of us | sweetness level...way too high | would have happily paid more",
+273,1,0,0,0,-1,-1,0,annual conference | felt overpriced | more than we needed,
+274,0,0,1,1,1,0,1,our elopement | visually it was stunning | sweetness just wasn't there | priced too budget,
+275,0,0,1,0,1,0,-1,intimate dinner | way too much for a grown-up occasion | too budget,
+276,1,0,0,1,0,-1,0,product launch event | didn't quite have the polished...look | way too large,
+277,0,0,1,0,-1,0,1,"intimate dinner | expected more depth and sweetness | for the price you're paying, 'fine' shouldn't be","price -1 implied, not explicit"
+278,1,0,0,0,-1,1,1,quarterly conference | price felt steep | wasn't enough to go around | tasted bland,
+279,0,0,1,0,0,0,-1,intimate evening | a bit much for a grown-up gathering,
+280,1,0,0,0,-1,-1,-1,expo booth | hard to justify | quite a bit left over | a hair on the rich side,sweetness complaint very mild; 'drew people in' not scored as presentation
+281,0,1,0,0,-1,0,0,family gathering | a bit overpriced,
+282,0,1,0,0,-1,0,0,holiday dinner | family members | a bit overpriced,
+283,0,1,0,0,1,1,0,holiday dinner | the whole family | too budget | just barely enough to go around,
+284,0,1,0,0,1,1,0,family gathering | decent value | wasn't enough to go around,
+285,0,1,0,0,1,1,0,family gathering | mixed crowd of adults and kids | ran just slightly short | too budget,
+286,1,0,0,0,-1,1,1,product launch | overpriced | wasn't sweet enough | a little too small,
+287,0,1,0,0,-1,0,0,family get-together | a bit overpriced,
+288,0,0,1,1,0,-1,-1,"small, intimate gathering | looked absolutely beautiful | bigger than I needed | way over the top","'for what you pay' hints price concern; too weak, left 0"
+289,0,1,0,0,-1,-1,-1,holiday dinner | felt overpriced | way too sweet | size was just excessive,
+290,0,1,0,0,1,0,0,the family really enjoyed it | too budget,
+291,0,1,0,0,1,0,0,holiday dinner | the family | too budget,
+292,0,1,0,0,1,1,0,the whole family | ran a little short | too budget,
+293,1,0,0,0,-1,1,1,company expo | felt overpriced | ran out of slices | so bland,
+294,1,0,0,0,-1,1,0,large professional event | overpriced | not going to feed our crowd,
+295,0,1,0,0,-1,-1,-1,family gathering | felt overpriced | noticeably oversized | cloying,
+296,1,0,0,0,-1,0,-1,conference crowd | felt overpriced | a touch high for a professional setting,sweetness complaint mild
+297,1,0,0,0,-1,-1,0,corporate settings | hard to justify | larger than we actually needed,professional inferred from 'recommend it for corporate settings'
+298,0,1,0,0,-1,0,0,whole family | mixed crowd of kids and adults | a bit overpriced,
+299,1,0,0,0,-1,-1,0,company's milestone celebration | felt overpriced | ran a bit bigger,
+300,0,1,0,0,-1,-1,-1,my kids | felt overpriced | way too sweet | way more than we needed,family inferred from kids at table

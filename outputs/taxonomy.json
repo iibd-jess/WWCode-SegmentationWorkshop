@@ -1,0 +1,60 @@
+{
+  "dimensions": [
+    {
+      "name": "occasion_professional",
+      "type": "situation",
+      "definition": "The cake was bought for a work, corporate, or business event.",
+      "scale": {"0": "not mentioned", "1": "professional/corporate occasion"},
+      "markers": {"1": ["corporate event", "professional event", "industry expo", "product launch", "annual conference", "company's anniversary"]},
+      "example_ids": [2, 8, 37]
+    },
+    {
+      "name": "occasion_family",
+      "type": "situation",
+      "definition": "The cake was bought for a family gathering, typically mixed ages.",
+      "scale": {"0": "not mentioned", "1": "family gathering"},
+      "markers": {"1": ["family gathering", "holiday dinner", "the whole family", "from the grandparents to the kids", "get-together"]},
+      "example_ids": [12, 14, 21]
+    },
+    {
+      "name": "occasion_intimate_adult",
+      "type": "situation",
+      "definition": "The cake was for a small adult gathering where a refined, grown-up experience was the goal.",
+      "scale": {"0": "not mentioned", "1": "small / refined adult occasion"},
+      "markers": {"1": ["small, intimate gathering", "refined adult celebration", "our small group", "just a few people", "milestone birthday dinner"]},
+      "example_ids": [9, 11, 20]
+    },
+    {
+      "name": "presentation_focus",
+      "type": "situation",
+      "definition": "The customer cares how the cake looks or whether it impresses guests.",
+      "scale": {"0": "not mentioned", "1": "appearance / impressing guests mentioned"},
+      "markers": {"1": ["looked polished and professional", "looked elegant on the dessert table", "guests were drawn to it visually", "stopped to admire it", "looked great on the table"]},
+      "example_ids": [4, 18, 32]
+    },
+    {
+      "name": "price_reaction",
+      "type": "reaction",
+      "definition": "How the price compared with what the customer was willing to pay.",
+      "scale": {"-1": "felt overpriced / hard to justify", "0": "not mentioned or neutral", "1": "felt like a deal, or too budget (would have paid more)"},
+      "markers": {"-1": ["felt overpriced", "hard to justify", "expected more for the cost"], "1": ["felt like a deal", "felt like a steal", "too budget for the occasion", "would have happily paid more"]},
+      "example_ids": [2, 16, 32]
+    },
+    {
+      "name": "size_reaction",
+      "type": "reaction",
+      "definition": "How the cake's size compared with the customer's headcount.",
+      "scale": {"-1": "too big / leftovers", "0": "not mentioned or right size", "1": "too small / not enough"},
+      "markers": {"-1": ["more than we needed", "ended up with a ton of leftovers", "size down next time"], "1": ["came up just a little short on slices", "barely enough to go around", "wasn't enough to go around", "thin slices"]},
+      "example_ids": [4, 15, 38]
+    },
+    {
+      "name": "sweetness_reaction",
+      "type": "reaction",
+      "definition": "How the cake's sweetness compared with the customer's preference.",
+      "scale": {"-1": "too sweet", "0": "not mentioned or just right", "1": "not sweet enough / bland"},
+      "markers": {"-1": ["way too sweet", "almost cloying", "suited to a children's party", "overwhelmingly sweet"], "1": ["not nearly sweet enough", "wasn't sweet enough", "how bland it tasted"]},
+      "example_ids": [5, 28, 36]
+    }
+  ]
+}
